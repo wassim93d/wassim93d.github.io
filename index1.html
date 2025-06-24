@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WASKO | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #fff;
+      color: #222;
+    }
+    header {
+      background: #7f00ff;
+      background: linear-gradient(90deg, #7f00ff, #e100ff);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    section.gallery {
+      padding: 2rem;
+    }
+    h2.theme-title {
+      font-size: 2rem;
+      margin: 2rem 0 1rem;
+      color: #7f00ff;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f5f5f5;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WASKO</h1>
+    <p>Mon portfolio photo</p>
+  </header>
+
+  <section class="gallery">
+    <h2 class="theme-title">Football</h2>
+    <div class="gallery-grid">
+      <img src="https://placehold.co/600x400?text=Football+1" alt="Football 1">
+      <img src="https://placehold.co/600x400?text=Football+2" alt="Football 2">
+      <img src="https://placehold.co/600x400?text=Football+3" alt="Football 3">
+    </div>
+
+    <h2 class="theme-title">Voiture</h2>
+    <div class="gallery-grid">
+      <img src="https://placehold.co/600x400?text=Voiture+1" alt="Voiture 1">
+      <img src="https://placehold.co/600x400?text=Voiture+2" alt="Voiture 2">
+      <img src="https://placehold.co/600x400?text=Voiture+3" alt="Voiture 3">
+    </div>
+
+    <h2 class="theme-title">Portrait</h2>
+    <div class="gallery-grid">
+      <img src="https://placehold.co/600x400?text=Portrait+1" alt="Portrait 1">
+      <img src="https://placehold.co/600x400?text=Portrait+2" alt="Portrait 2">
+      <img src="https://placehold.co/600x400?text=Portrait+3" alt="Portrait 3">
+    </div>
+
+    <h2 class="theme-title">Boxe</h2>
+    <div class="gallery-grid">
+      <img src="https://placehold.co/600x400?text=Boxe+1" alt="Boxe 1">
+      <img src="https://placehold.co/600x400?text=Boxe+2" alt="Boxe 2">
+      <img src="https://placehold.co/600x400?text=Boxe+3" alt="Boxe 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WASKO - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
